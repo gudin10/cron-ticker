@@ -1,0 +1,5 @@
+docker buildx build --platform linux/amd64, linux/arm64, linux/arm64/v7, linux/arm64/v8 \
+-t intydocker21/cron-ticker --push .
+
+docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 
+-t intydocker21/cron-ticker:oso --push .
